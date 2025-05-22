@@ -122,7 +122,7 @@ const char * SALIDA_CONTINUO3 = "Resultados/SecuencialCFTTrapecio.txt"; //salida
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 int main (){
-    FILE * entrada = fopen (FUNCIONA,"r");
+    FILE * entrada = fopen (QUINIENTOSMIL,"r");
     FILE * salida = fopen(SALIDA,"w");
     FILE * salida_cont = fopen(SALIDA_CONTINUO,"w");
     FILE * salida_cont2 = fopen(SALIDA_CONTINUO2,"w");
